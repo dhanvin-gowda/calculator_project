@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    height:100%;
+    background:#202020
+}
+.butt{
+    margin-top:10px;
+    margin-left:10px;
+    width:100%;
+    height:30px;
+    display:flex;
+    gap:20px;
+    color:white
+}
+.imgi{
+    width:20px;
+    height:20px;
+}
+.imgi img{
+    width:100%;
+    height:100%
+}
+.bigbox{
+    height:775px;
+    display:grid;
+    gap:10px;
+}
+.box1{
+    height:100%;
+    width:100%;
+    border-style:solid;
+    border-radius:10px;
+    grid-column:1/4;
+    grid-row:1;
+    border-color:white;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:50px;
+    font-weight:bold;
+}
+.box2{
+    border-style:solid;
+    border-radius:10px;
+    grid-row:1/4;
+    border-color:white;
+    color:white;
+}
+.his,.mem{
+    height:20px;
+    width:20px;
+}
+.box3{
+    border-style:solid;
+    border-radius:10px;
+    grid-row:2/4;
+    grid-column:1/4;
+    border-color:white;
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows:16.5% 16.5% 16.5% 16.5% 16.5% 16.5% ;
+    color:white;
+    justify-content:center;
+    text-align : center;
+    align-items:center;
+}
+.box3 button{
+    width:100%;
+    height:100%;
+    font-size:20px;
+    font-weight:bold;
+}
+.a4{
+    background:#011e46;
+    color:white;
+}
+.a1,.a3,.a4,.a5,.a6,.a7,.a8{
+    background:#011e46;
+    color:white;
+}
+.a2,.a9{
+    background:#06306a;
+    color:white;
+}
+.a1:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover,.a6:hover,.a7:hover,.a8:hover{
+      background:#011127;
+}
+.er{
+    background:rgb(65, 182, 208);
+}
+.er:hover{
+    background:#63babf;
+
+}
+@media (max-width:1200px){
+    .bigbox{
+        height:650px;
+    }
+    
+}
+@media(max-width:800px){
+    .bigbox{
+        height:500px
+    }
+}
+@media (min-width:800px){
+    .text1,.text2{
+        visibility:hidden;
+    }
+}
+.some{
+    color:white;
+    font-size:20px;
+}
+.is-hovered:hover{
+    background-color:#011127;
+}
+@media(max-width:500px){
+    .box1{
+        font-size:20px;
+    }
+}
