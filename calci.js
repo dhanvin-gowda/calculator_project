@@ -1,7 +1,7 @@
 const ex=document.querySelector(".box2");
 const di=document.querySelectorAll(".text1,.text2");
 function extract(){
-    if (window.innerWidth<300){
+    if (window.innerWidth<1000){
         ex.style.display="none"
     }
     else{
